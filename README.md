@@ -13,8 +13,6 @@ C:/>(whatever dir you wanna save)mkdir django_pro
 C:/>cd django_pro
 C:/django_pro>git clone https://github.com/sakshic75/url_shortener.git
 C:/django_pro>cd url_shortener
-C:/django_pro/url_shortener>pip install -r requirements.txt 
-C:/django_pro/url_shortener>virtualenv venv 
 C:/django_pro/url_shortener>python manage.py migrate 
 C:/django_pro/url>python manage.py runserver 
 
