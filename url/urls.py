@@ -4,5 +4,5 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('url', views.url),
-    path('<int:num>', views.redirection)
+    path('url/<str:unique_key>', views.redirection)
 ]
