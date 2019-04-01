@@ -104,9 +104,14 @@ def get_char(r):
 def generate_key(count):
     # scaling the base
     base_key = ""
+    array_rem = []
     while count > 0:
         r = count % 62
         count = count//62
         base_key = base_key + str(get_char(r))
+        array_rem.append(r)
+
+    for i in range(len(array_rem)-1, -1, -1):
+        base_key = base_key + str(get_char(array_rem[i]))
 
     return base_key
