@@ -19,7 +19,7 @@ C:/django_pro>cd url_shortener
 
 C:/django_pro/url_shortener>python manage.py migrate 
 
-C:/django_pro/url>python manage.py runserver 
+C:/django_pro/url_shortener>python manage.py runserver 
 
 
 Model used:
